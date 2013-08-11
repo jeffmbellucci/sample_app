@@ -23,11 +23,11 @@ end
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
-  gem 'rspec-rails', '2.11.0'
+  gem 'rspec-rails', '2.13.1'
 end
 
 group :test do
-  gem 'capybara', '1.1.2'
+  gem 'capybara', '2.1.0'
   gem 'selenium-webdriver', '2.0.0'
 end
 
