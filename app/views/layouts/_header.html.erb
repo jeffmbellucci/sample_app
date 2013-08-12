@@ -1,0 +1,8 @@
+<ul>
+	<%if logged_in?%>
+  	<li><%= link_to "Sign out", signout_url, method: "delete" %></li>
+	<li><%= link_to "profile", user_url(current_user) %>
+	<% else %>
+	<li><%= link_to "Sign in", new_session_url %></li>
+	<% end %>
+</ul>
